@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tmdbclient.luisfilipersilva.com.tmdbclient.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/valorTmdb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="65dp"
+                android:text="tmdb"
+
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/logoTmdb"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/ic_tmdb" />
+
+            <TextView
+                android:id="@+id/textInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/imagePoster"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:id="@+id/textoPlot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="90dp"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/logoImdb"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/ic_imdb" />
+
+            <TextView
+                android:id="@+id/valorImdb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="65dp"
+                android:text="imdb"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:id="@+id/logoRotten"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/valorRotten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="65dp"
+                android:text="rotten"
+                android:textColor="@android:color/background_light" />
+        </FrameLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
